@@ -1,0 +1,114 @@
+body{
+    background-color: #B3CCAF;
+    margin:0%;
+    overflow-x: hidden;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    min-height: 100vh;
+}
+header{
+    background-image: url(/img/38ea077d-8c35-4d48-ba42-9518142c76c4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px;
+    background-position-y: -100px;
+    
+}
+nav{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #243322;
+}
+nav ul{
+    display: flex;
+    gap: 17rem;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navegador{
+    text-decoration: none;
+    display: flex;
+    gap: 17rem;
+    align-items: center;  
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: #B3CCAF;
+    padding: 40px;
+    margin: 0 10% 0 10%;
+    border-radius: 10px;
+    text-align: center;
+}
+.caixas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.item{
+    border-radius: 10px;
+    line-height: 1.5;
+    font-size: 17px;
+    word-spacing: 1px;
+    background: #F5ECE5;
+    padding: 25px;
+    text-align: center;
+}
+.item:hover{
+    transition: 0.5s;
+    transform: scale(1.03);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+footer{
+    background-color: #43673B;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+}
+nav img{
+    width: 100px;
+}
+h1{
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: -50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-size: 28px;
+}
+a{
+    text-decoration: none;
+    color: #F8EFE9;
+}
+a:hover{
+    color: #b09415;
+}
+p{
+    line-height: 1,6;
+    color: #1A1A1A;
+    font-size: 20px;
+    text-align: left;
+}
+footer p{
+    color: #000000;
+    text-align: center;
+}
+#externo{
+    color: rgb(145, 7, 7);
+    margin-top: -15px;
+    margin-left: -30px;
+}
+.texto{
+    margin: 0% 15% 0% 15%;
+}
+.ativo{
+    color: #b09415;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
